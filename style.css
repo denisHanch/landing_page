@@ -23,11 +23,11 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+.custom_header {
     font-size: 24px;
     color: #f9faf8;
-    width: 300px;
     text-align: start;
+    font-weight: 800;
 }
 
 .links {
@@ -66,7 +66,7 @@ a:visited {
 }
 
 
-.description-text {
+.secondary_text {
     width: 300px;
     color: #e5e7eb;
     font-size: 18px;
@@ -146,5 +146,32 @@ h1.main_header{
 .main_middle_citation{
     font-weight: 900;
     align-self: flex-end;
+}
+
+.main_bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.main_bottom_content{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+.main_bottom_text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.b2{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #f9faf8;
 }
 
